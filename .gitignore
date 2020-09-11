@@ -1,0 +1,11 @@
+*.pyc
+*.pkl
+__pycache__
+
+/data/__pycache__
+/enc/__pycache__
+/lp_data/__pycache__
+/text_ranking/__pycache__
+/text_ranking/__pycache__
+/view/__pycache__
+.idea

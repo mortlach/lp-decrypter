@@ -1,0 +1,1 @@
+pyuic5 ui_view.ui -o ui_view.py
