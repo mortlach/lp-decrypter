@@ -37,10 +37,10 @@ class LiberPrimusText(object):
         holds the text of the LP, divided into sections (defined by red runes (rr) or side art (section) )
         Then simple functions to get the data
     '''
-    lp_start_end_data = {'1': section1, '2': section2, '3': section3, '4': section4, '5': section5, '6': section6, '7': section7, '8': section8,
-                         '9': section9, '10': section10, '11': section11, '12': section12, '13': section13, 1: section1, 2: section2, 3: section3,
-                         4: section4, 5: section5, 6: section6, 7: section7, 8: section8, 9: section9, 10: section10, 11: section11, 12: section12,
-                         13: section13}
+    lp_start_end_data = {'0': section1, '1': section2, '2': section3, '3': section4, '4': section5, '5': section6, '6': section7, '7': section8,
+                         '8': section9, '9': section10, '10': section11, '11': section12, '12': section13, 0: section1, 1: section2, 2: section3,
+                         3: section4, 4: section5, 5: section6, 6: section7, 7: section8, 8: section9, 9: section10, 10: section11, 11: section12,
+                         12: section13}
 
     lp_rr = {'1': rr1, 1: rr1, '2': rr2, 2: rr2, '3': rr3, 3: rr3, '4': rr4, 4: rr4, '5': rr5, 5: rr5, '6': rr6, 6: rr6, '7': rr7, 7: rr7, '8': rr8,
              8: rr8, '9': rr9, 9: rr9, '10': rr10, 10: rr10, '11': rr11, 11: rr11, '12': rr12, 12: rr12, '13': rr13, 13: rr13, '14': rr14, 14: rr14,

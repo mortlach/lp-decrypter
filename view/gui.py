@@ -1280,13 +1280,13 @@ class view(QtWidgets.QMainWindow, Ui_mainView):
             #print("c = ", count)
             #print("c = ", count, w.isChecked())
             if w.isChecked():
-                self.data["chosen_sections"].append(count)
+                self.data["chosen_sections"].append(count) # section count, starts at 1 in lp data
             else:
                 if count in self.data["chosen_sections"]:
                     self.data["chosen_sections"].remove(count)
         if len(self.data["chosen_sections"]) > 0:
             self.data["chosen_sections"] = list(set(self.data["chosen_sections"]))
-        #print("self.data[chosen_sections] = ", self.data["chosen_sections"])
+        print("self.data[chosen_sections] = ", self.data["chosen_sections"])
         self.handle_processLPText()
 
     # |~\  |\    /| |\    /|      |~\  |\      |   |\    /|   /
