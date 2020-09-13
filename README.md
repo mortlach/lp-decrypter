@@ -5,7 +5,7 @@
 * [Issues](#issues)
 * [Packages](#packages)
 * [Setup](#setup)
-* [help-me](#help me)
+* [help-me](#help-me)
 
 ## General info
 - An LP brute-forcing tool for decrypting cipher-text with user defined keys and functions 
@@ -61,5 +61,5 @@ run the text decryption with defaults on start-up
 `python3 main.py -test  `    
 
 
-## help me
+## help-me
 cicadsolvers irc / discord 
