@@ -1,3 +1,6 @@
+## UPDATE
+* being re-written in c++ too big and compicated for my python skills :)
+
 ## Table of contents
 * [General info](#general-info)
 * [Hints](#hints)
