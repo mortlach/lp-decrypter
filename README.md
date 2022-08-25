@@ -1,5 +1,7 @@
 ## UPDATE
 * being re-written in c++ too big and compicated for my python skills :)
+* loolking to better integrate with c++ cribbing, so crib app first 
+
 
 ## Table of contents
 * [General info](#general-info)
